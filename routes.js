@@ -12,5 +12,15 @@ router.get('/', async (req, res) => {
 })
 
 // this route gets to the add dreams page
+router.get('/add', async (req, res) => {
+  const data = await db.getDreams()
+  res.render('addDreams', { dreams: data })
+})
+
+// this route is to save the add dreams
+router.post('/add', async (req, res) => {
+  await db.saveDream(req.body)
+  res.redirect('/')
+})
 
 module.exports = router

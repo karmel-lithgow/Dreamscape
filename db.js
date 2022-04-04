@@ -8,6 +8,12 @@ function getDreams(db = connection) {
   return db('dreams').select()
 }
 
+// this function is for adding new dreams
+function saveDream(dreams, db = connection) {
+  return db('dreams').insert(dreams)
+}
+
 module.exports = {
   getDreams,
+  saveDream,
 }

@@ -19,6 +19,14 @@ p {
   margin: 0%;
 }
 
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size:150%;
+  text-align: left;
+  margin-left: 5%;
+  margin-top:0%;
+}
+
 .dream-container {
   display: flex;
   flex-direction: column;
@@ -26,4 +34,6 @@ p {
   align-items: center;
   background-color: rgb(241, 224, 227);
   margin: 5%;
+  border-style:dashed;
+  border-color:rgb(190, 91, 108);
 }
