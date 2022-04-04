@@ -1,0 +1,20 @@
+body {
+  background-color:pink
+}
+
+.relative{
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height:auto;
+
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size:200%;
+  text-align: center;
+  margin: 0%;
+}
