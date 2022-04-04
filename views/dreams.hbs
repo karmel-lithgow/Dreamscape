@@ -1,7 +1,11 @@
 {{>header}}
 
 {{#each dreams}}
-{{name}} {{dream_description}}
+<div class="dream-container">
+  <p><span>
+    <u>{{name}}</u> : {{dream_description}}
+  </span></p>
+</div>
 {{/each}}
 
 

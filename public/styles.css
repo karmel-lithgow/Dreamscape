@@ -18,3 +18,12 @@ p {
   text-align: center;
   margin: 0%;
 }
+
+.dream-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(241, 224, 227);
+  margin: 5%;
+}
