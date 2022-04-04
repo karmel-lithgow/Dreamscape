@@ -37,3 +37,19 @@ h3 {
   border-style:dashed;
   border-color:rgb(190, 91, 108);
 }
+
+label {
+  font-family: 'Amatic SC', cursive;
+  font-size:200%;
+  text-align: center;
+  margin: 0%;
+}
+
+button {
+  font-family: 'Amatic SC', cursive;
+  font-size:70%;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+

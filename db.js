@@ -5,7 +5,7 @@ const connection = require('knex')(config)
 
 // this function is to get the dreams list (on homepage)
 function getDreams(db = connection) {
-  return db('dreams').select()
+  return db('dreams').select().orderBy('id', 'desc')
 }
 
 // this function is for adding new dreams
