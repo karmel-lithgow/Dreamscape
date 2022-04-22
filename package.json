@@ -4,7 +4,7 @@
   "description": "A place to record your dreams",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "nodemon index",
     "dev": "nodemon index",
     "knex": "knex",
     "lint": "eslint .",
@@ -41,5 +41,8 @@
     "nodemon": "^2.0.6",
     "prettier": "^2.5.1",
     "supertest": "^5.0.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
